@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization -- -j16 -l16
+[0.061s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization -- -j16 -l16
+[0.111s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization
+[0.119s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/include
+[0.119s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/include/ublox_serialization
+[0.120s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/include/ublox_serialization/serialization.hpp
+[0.120s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/include/ublox_serialization/checksum.hpp
+[0.120s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[0.121s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[0.122s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.dsv
+[0.122s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[0.122s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.122s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[0.122s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[0.122s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.xml
+[0.124s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization

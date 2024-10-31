@@ -1,0 +1,9 @@
+failed to create symbolic link '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros/ament_cmake_python/rplidar_ros/rplidar_ros' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_rplidar_ros.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_rplidar_ros] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:146: CMakeFiles/ament_cmake_python_symlink_rplidar_ros.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  3%] Built target rplidar_client
+[ 69%] Built target rplidar_composition
+[ 69%] Built target rplidar_node
+[100%] Built target lidar_map_node
+gmake: *** [Makefile:146: all] Error 2

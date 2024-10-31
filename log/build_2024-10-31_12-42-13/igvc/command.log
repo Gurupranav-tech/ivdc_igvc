@@ -1,0 +1,2 @@
+Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/igvc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/igvc
+Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/igvc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/igvc

@@ -1,0 +1,70 @@
+[0.326s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target ublox_logger_node[0m
+[0.428s] [35m[1mConsolidate compiler generated dependencies of target ublox_gps[0m
+[0.448s] [ 13%] Built target ublox_logger_node
+[0.603s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[0.603s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[24.557s] [ 27%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[28.503s] [ 90%] Built target ublox_gps
+[28.541s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[36.997s] [100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[38.222s] [100%] Built target ublox_gps_node
+[38.256s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
+[38.369s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps
+[38.385s] -- Install configuration: ""
+[38.386s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/libublox_gps.so
+[38.466s] -- Set runtime path of "/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/libublox_gps.so" to ""
+[38.466s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[38.468s] -- Set runtime path of "/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[38.468s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/ublox_gps/ublox_logger
+[38.479s] -- Set runtime path of "/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[38.479s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include
+[38.480s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps
+[38.480s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[38.480s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[38.481s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[38.481s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[38.481s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/gnss.hpp
+[38.482s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[38.482s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/node.hpp
+[38.482s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[38.483s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[38.483s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[38.483s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[38.484s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[38.484s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[38.484s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[38.485s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/gps.hpp
+[38.485s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[38.486s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/utils.hpp
+[38.486s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[38.486s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[38.487s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[38.487s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[38.487s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/worker.hpp
+[38.488s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/callback.hpp
+[38.488s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[38.488s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[38.489s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[38.489s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/launch
+[38.490s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[38.491s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[38.491s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/config
+[38.492s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[38.493s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[38.495s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[38.496s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[38.497s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[38.498s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/environment/path.sh
+[38.499s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[38.499s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/local_setup.bash
+[38.500s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/local_setup.sh
+[38.501s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[38.502s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[38.503s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.dsv
+[38.504s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[38.505s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[38.506s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[38.507s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[38.507s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.xml
+[38.512s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps

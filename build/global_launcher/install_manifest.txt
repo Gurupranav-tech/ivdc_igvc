@@ -1,0 +1,16 @@
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/launch/global_launch.py
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/package_run_dependencies/global_launcher
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/parent_prefix_path/global_launcher
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/ament_prefix_path.sh
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/ament_prefix_path.dsv
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/path.sh
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/path.dsv
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.bash
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.sh
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.zsh
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.dsv
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.dsv
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/packages/global_launcher
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/cmake/global_launcherConfig.cmake
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/cmake/global_launcherConfig-version.cmake
+/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.xml

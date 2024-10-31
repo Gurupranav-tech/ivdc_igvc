@@ -1,0 +1,5 @@
+[  1%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/lidar_map_node.dir/src/lidar_map_node.cpp.o[0m
+[  7%] Built target ament_cmake_python_copy_rplidar_ros

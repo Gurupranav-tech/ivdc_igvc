@@ -1,0 +1,783 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f50b857d600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f50b876eec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f50b876eec0>>)
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gurupranav/Programming/ros2_tut/igvc'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_launcher) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_launcher' with type 'ros.ament_cmake' and name 'global_launcher'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.552s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/gurupranav/Programming/ros2_tut/igvc/install
+[0.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'global_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'global_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/global_launcher', 'symlink_install': False, 'test_result_base': None}
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.599s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.602s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.602s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.603s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.604s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.604s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.605s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox', 'merge_install': False, 'path': '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox', 'symlink_install': False, 'test_result_base': None}
+[0.608s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.609s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_serialization' with build type 'ament_cmake'
+[0.610s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_serialization'
+[0.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro_ros_msgs'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/global_launcher' with build type 'ament_cmake'
+[0.628s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/global_launcher'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/micro_ros_setup' with build type 'ament_cmake'
+[0.635s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/micro_ros_setup'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/rplidar_ros' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/rplidar_ros'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization -- -j16 -l16
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs
+[0.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher -- -j16 -l16
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup -- -j16 -l16
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros -- -j16 -l16
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization -- -j16 -l16
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher -- -j16 -l16
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher
+[0.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization' for CMake module files
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_serialization
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization' for CMake config files
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/bin'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/lib/python3.10/site-packages'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_launcher)
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher' for CMake module files
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher' for CMake config files
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_launcher', 'cmake_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/bin'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/lib/pkgconfig/global_launcher.pc'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/lib/python3.10/site-packages'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.zsh'
+[0.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/colcon-core/packages/global_launcher)
+[0.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization' for CMake module files
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization' for CMake config files
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/bin'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/lib/python3.10/site-packages'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/bin'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.849s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_msgs' with build type 'ament_cmake'
+[0.849s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_msgs'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_launcher)
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher' for CMake module files
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher' for CMake config files
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_launcher', 'cmake_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/hook/cmake_prefix_path.sh'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/bin'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/lib/pkgconfig/global_launcher.pc'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/lib/python3.10/site-packages'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/bin'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.sh'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.zsh'
+[0.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/colcon-core/packages/global_launcher)
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs -- -j16 -l16
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup -- -j16 -l16
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros -- -j16 -l16
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup' for CMake module files
+[1.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_setup
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup' for CMake config files
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/bin'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/bin'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup' for CMake module files
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/bin'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros
+[1.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros' for CMake module files
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/rplidar_ros
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros' for CMake config files
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/bin'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/python3.10/site-packages'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/bin'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros' for CMake module files
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros' for CMake config files
+[1.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/bin'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/python3.10/site-packages'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/bin'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs -- -j16 -l16
+[3.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs
+[3.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs' for CMake module files
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs' for CMake config files
+[3.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[3.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[3.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_msgs
+[3.835s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib'
+[3.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[3.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/bin'
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib/python3.10/site-packages'
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/bin'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.sh'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[3.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[6.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[6.009s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs' for CMake module files
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs' for CMake config files
+[6.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[6.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[6.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[6.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[6.016s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib'
+[6.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[6.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[6.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/bin'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[6.020s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib/python3.10/site-packages'
+[6.020s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/bin'
+[6.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[6.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[6.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.sh'
+[6.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.bash'
+[6.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[6.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[6.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_gps' with build type 'ament_cmake'
+[6.026s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_gps'
+[6.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs
+[6.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs -- -j16 -l16
+[6.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
+[6.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
+[6.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps
+[6.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[6.637s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps' for CMake module files
+[6.640s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps' for CMake config files
+[6.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps
+[6.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[6.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[6.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[6.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib'
+[6.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[6.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/bin'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/python3.10/site-packages'
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/bin'
+[6.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.ps1'
+[6.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.dsv'
+[6.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.sh'
+[6.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.bash'
+[6.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.zsh'
+[6.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[6.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[6.751s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps' for CMake module files
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps' for CMake config files
+[6.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[6.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[6.755s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib'
+[6.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[6.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[6.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[6.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[6.758s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/bin'
+[6.758s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[6.758s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/lib/python3.10/site-packages'
+[6.759s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/bin'
+[6.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.ps1'
+[6.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.dsv'
+[6.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.sh'
+[6.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.bash'
+[6.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/ublox_gps/package.zsh'
+[6.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[6.764s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox' with build type 'ament_cmake'
+[6.765s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox'
+[6.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox -- -j16 -l16
+[7.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox -- -j16 -l16
+[7.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox
+[7.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[7.396s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox' for CMake module files
+[7.397s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox' for CMake config files
+[7.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[7.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[7.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[7.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[7.402s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/bin'
+[7.402s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/lib/pkgconfig/ublox.pc'
+[7.402s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/lib/python3.10/site-packages'
+[7.403s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/bin'
+[7.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.ps1'
+[7.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/ublox
+[7.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.dsv'
+[7.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.sh'
+[7.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.bash'
+[7.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.zsh'
+[7.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/colcon-core/packages/ublox)
+[7.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[7.469s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox' for CMake module files
+[7.470s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox' for CMake config files
+[7.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[7.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[7.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[7.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[7.477s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/bin'
+[7.477s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/lib/pkgconfig/ublox.pc'
+[7.477s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/lib/python3.10/site-packages'
+[7.478s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/bin'
+[7.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.ps1'
+[7.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.dsv'
+[7.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.sh'
+[7.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.bash'
+[7.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/ublox/package.zsh'
+[7.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/ublox/share/colcon-core/packages/ublox)
+[9.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs -- -j16 -l16
+[10.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs
+[10.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[10.106s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs' for CMake module files
+[10.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_msgs
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs' for CMake config files
+[10.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[10.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[10.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[10.110s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib'
+[10.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[10.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[10.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[10.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[10.111s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/bin'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib/python3.10/site-packages'
+[10.112s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/bin'
+[10.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[10.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[10.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[10.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[10.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[10.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[10.255s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs' for CMake module files
+[10.256s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs' for CMake config files
+[10.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[10.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[10.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[10.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[10.259s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib'
+[10.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[10.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[10.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/bin'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[10.262s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib/python3.10/site-packages'
+[10.262s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/bin'
+[10.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[10.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[10.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[10.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[10.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[10.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[10.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[10.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro-ROS-Agent/micro_ros_agent'
+[10.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent
+[15.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent
+[15.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent -- -j16 -l16
+[68.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent -- -j16 -l16
+[68.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent
+[68.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[68.902s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent' for CMake module files
+[68.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_setup:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/micro_ros_agent
+[68.903s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent' for CMake config files
+[68.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[68.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[68.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[68.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[68.924s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib'
+[68.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[68.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[68.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[68.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[68.926s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/bin'
+[68.926s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[68.926s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib/python3.10/site-packages'
+[68.926s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/bin'
+[68.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[68.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[68.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[68.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[68.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[68.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[68.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[68.977s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent' for CMake module files
+[68.978s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent' for CMake config files
+[68.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[68.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[68.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[68.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[68.982s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib'
+[68.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[68.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[68.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[68.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[68.984s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/bin'
+[68.984s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[68.984s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/lib/python3.10/site-packages'
+[68.985s] Level 1:colcon.colcon_core.environment:checking '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/bin'
+[68.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[68.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[68.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[68.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[68.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[68.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gurupranav/Programming/ros2_tut/igvc/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[68.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[68.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[68.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[68.991s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[69.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[69.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[69.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[69.085s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[69.085s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[69.085s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[69.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gurupranav/Programming/ros2_tut/igvc/install/local_setup.ps1'
+[69.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gurupranav/Programming/ros2_tut/igvc/install/_local_setup_util_ps1.py'
+[69.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gurupranav/Programming/ros2_tut/igvc/install/setup.ps1'
+[69.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gurupranav/Programming/ros2_tut/igvc/install/local_setup.sh'
+[69.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gurupranav/Programming/ros2_tut/igvc/install/_local_setup_util_sh.py'
+[69.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gurupranav/Programming/ros2_tut/igvc/install/setup.sh'
+[69.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gurupranav/Programming/ros2_tut/igvc/install/local_setup.bash'
+[69.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gurupranav/Programming/ros2_tut/igvc/install/setup.bash'
+[69.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gurupranav/Programming/ros2_tut/igvc/install/local_setup.zsh'
+[69.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gurupranav/Programming/ros2_tut/igvc/install/setup.zsh'

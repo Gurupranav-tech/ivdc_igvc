@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher -- -j16 -l16
+[0.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.229s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.326s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.329s] -- Added test 'lint_cmake' to check CMake code style
+[0.329s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.330s] -- Added test 'xmllint' to check XML markup files
+[0.331s] -- Configuring done
+[0.380s] -- Generating done
+[0.382s] -- Build files have been written to: /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher
+[0.416s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher -- -j16 -l16
+[0.443s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher
+[0.451s] -- Install configuration: ""
+[0.451s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/launch
+[0.452s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/launch/global_launch.py
+[0.452s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/package_run_dependencies/global_launcher
+[0.452s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/parent_prefix_path/global_launcher
+[0.453s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/ament_prefix_path.sh
+[0.453s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/ament_prefix_path.dsv
+[0.453s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/path.sh
+[0.453s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/environment/path.dsv
+[0.454s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.bash
+[0.454s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.sh
+[0.454s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.zsh
+[0.454s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/local_setup.dsv
+[0.455s] -- Installing: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.dsv
+[0.455s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/ament_index/resource_index/packages/global_launcher
+[0.455s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/cmake/global_launcherConfig.cmake
+[0.455s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/cmake/global_launcherConfig-version.cmake
+[0.455s] -- Up-to-date: /home/gurupranav/Programming/ros2_tut/igvc/install/global_launcher/share/global_launcher/package.xml
+[0.457s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gurupranav/Programming/ros2_tut/igvc/build/global_launcher

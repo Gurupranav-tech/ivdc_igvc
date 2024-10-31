@@ -1,0 +1,4 @@
+[  3%] Built target rplidar_client
+[ 64%] Built target rplidar_composition
+[ 67%] Built target rplidar_node
+[100%] Built target lidar_map_node

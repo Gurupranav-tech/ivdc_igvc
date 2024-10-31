@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000305] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000585] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.010993] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.012512] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/gurupranav/Programming/ros2_tut/rplidar_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros'], 'cwd': '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros', 'env': OrderedDict([('USER', 'gurupranav'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gurupranav'), ('OLDPWD', '/home/gurupranav/Programming/ros2_tut'), ('LESS', '-R'), ('NVM_BIN', '/home/gurupranav/.nvm/versions/node/v22.5.0/bin'), ('ZSH', '/home/gurupranav/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/gurupranav/.nvm/versions/node/v22.5.0/include/node'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/gurupranav/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install'), ('LOGNAME', 'gurupranav'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/2544_interop'), ('NAME', 'LAPTOP-D0AFMG2O'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/gurupranav/.local/share/pnpm:/home/gurupranav/.deno/bin:/home/gurupranav/.local/bin:/opt/ros/humble/bin:/home/gurupranav/.nvm/versions/node/v22.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Python/Scripts/:/mnt/d/Python/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/c++/Libraries/vulkan/1.3/Bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Neovim/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/GURU PRANAV PR/AppData/Local/pnpm:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/GURU PRANAV PR/go/bin:/mnt/c/MinGW/bin:/mnt/c/Users/GURU PRANAV PR/AppData/Local/GitHubDesktop/bin:/mnt/d/JetBrains Pycharm/PyCharm Community Edition 2024.2.0.1/bin:/mnt/c/Users/GURU PRANAV PR/.dotnet/tools:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/GURU PRANAV PR/AppData/Roaming/npm:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/GURU PRANAV PR/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/GURU PRANAV PR/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Hyper/resources/bin:/home/gurupranav/.yarn/bin:/opt/nvim-linux64/bin:/home/gurupranav/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('WT_SESSION', '260322b5-159c-4d90-8c85-a80fad0c0048'), ('DISPLAY', ':0'), ('DENO_INSTALL', '/home/gurupranav/.deno'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32:'), ('AMENT_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('ENVMAN_LOAD', 'loaded'), ('P9K_SSH', '0'), ('PWD', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros'), ('_P9K_TTY', '/dev/pts/2'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('PNPM_HOME', '/home/gurupranav/.local/share/pnpm'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.039139] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097914] (-) TimerEvent: {}
+[0.198469] (-) TimerEvent: {}
+[0.225379] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.257414] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.298803] (-) TimerEvent: {}
+[0.399395] (-) TimerEvent: {}
+[0.500053] (-) TimerEvent: {}
+[0.581457] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.584625] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.594866] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600166] (-) TimerEvent: {}
+[0.613030] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.634162] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.681317] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.683462] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700384] (-) TimerEvent: {}
+[0.801009] (-) TimerEvent: {}
+[0.901523] (-) TimerEvent: {}
+[1.002514] (-) TimerEvent: {}
+[1.103003] (-) TimerEvent: {}
+[1.203560] (-) TimerEvent: {}
+[1.304282] (-) TimerEvent: {}
+[1.404824] (-) TimerEvent: {}
+[1.505387] (-) TimerEvent: {}
+[1.605933] (-) TimerEvent: {}
+[1.706408] (-) TimerEvent: {}
+[1.806922] (-) TimerEvent: {}
+[1.907597] (-) TimerEvent: {}
+[2.008125] (-) TimerEvent: {}
+[2.108797] (-) TimerEvent: {}
+[2.209295] (-) TimerEvent: {}
+[2.309918] (-) TimerEvent: {}
+[2.410471] (-) TimerEvent: {}
+[2.511104] (-) TimerEvent: {}
+[2.611847] (-) TimerEvent: {}
+[2.712381] (-) TimerEvent: {}
+[2.812876] (-) TimerEvent: {}
+[2.913404] (-) TimerEvent: {}
+[3.013901] (-) TimerEvent: {}
+[3.114476] (-) TimerEvent: {}
+[3.215005] (-) TimerEvent: {}
+[3.315691] (-) TimerEvent: {}
+[3.416421] (-) TimerEvent: {}
+[3.516952] (-) TimerEvent: {}
+[3.617601] (-) TimerEvent: {}
+[3.718439] (-) TimerEvent: {}
+[3.819189] (-) TimerEvent: {}
+[3.919759] (-) TimerEvent: {}
+[4.020291] (-) TimerEvent: {}
+[4.120803] (-) TimerEvent: {}
+[4.221396] (-) TimerEvent: {}
+[4.322085] (-) TimerEvent: {}
+[4.422819] (-) TimerEvent: {}
+[4.523412] (-) TimerEvent: {}
+[4.624035] (-) TimerEvent: {}
+[4.724810] (-) TimerEvent: {}
+[4.825336] (-) TimerEvent: {}
+[4.926070] (-) TimerEvent: {}
+[5.026828] (-) TimerEvent: {}
+[5.127343] (-) TimerEvent: {}
+[5.227860] (-) TimerEvent: {}
+[5.328474] (-) TimerEvent: {}
+[5.429080] (-) TimerEvent: {}
+[5.529614] (-) TimerEvent: {}
+[5.630279] (-) TimerEvent: {}
+[5.730857] (-) TimerEvent: {}
+[5.831606] (-) TimerEvent: {}
+[5.932236] (-) TimerEvent: {}
+[6.032857] (-) TimerEvent: {}
+[6.133449] (-) TimerEvent: {}
+[6.234003] (-) TimerEvent: {}
+[6.334657] (-) TimerEvent: {}
+[6.435528] (-) TimerEvent: {}
+[6.536009] (-) TimerEvent: {}
+[6.636579] (-) TimerEvent: {}
+[6.737136] (-) TimerEvent: {}
+[6.837884] (-) TimerEvent: {}
+[6.938567] (-) TimerEvent: {}
+[7.039469] (-) TimerEvent: {}
+[7.140172] (-) TimerEvent: {}
+[7.240664] (-) TimerEvent: {}
+[7.341205] (-) TimerEvent: {}
+[7.441741] (-) TimerEvent: {}
+[7.542284] (-) TimerEvent: {}
+[7.642862] (-) TimerEvent: {}
+[7.743449] (-) TimerEvent: {}
+[7.843993] (-) TimerEvent: {}
+[7.944578] (-) TimerEvent: {}
+[8.045187] (-) TimerEvent: {}
+[8.145681] (-) TimerEvent: {}
+[8.246158] (-) TimerEvent: {}
+[8.346697] (-) TimerEvent: {}
+[8.447222] (-) TimerEvent: {}
+[8.547781] (-) TimerEvent: {}
+[8.648252] (-) TimerEvent: {}
+[8.748834] (-) TimerEvent: {}
+[8.849474] (-) TimerEvent: {}
+[8.950056] (-) TimerEvent: {}
+[9.050637] (-) TimerEvent: {}
+[9.151181] (-) TimerEvent: {}
+[9.251759] (-) TimerEvent: {}
+[9.352296] (-) TimerEvent: {}
+[9.452890] (-) TimerEvent: {}
+[9.553453] (-) TimerEvent: {}
+[9.654043] (-) TimerEvent: {}
+[9.754591] (-) TimerEvent: {}
+[9.855398] (-) TimerEvent: {}
+[9.955911] (-) TimerEvent: {}
+[10.056472] (-) TimerEvent: {}
+[10.157019] (-) TimerEvent: {}
+[10.257726] (-) TimerEvent: {}
+[10.358238] (-) TimerEvent: {}
+[10.458817] (-) TimerEvent: {}
+[10.559344] (-) TimerEvent: {}
+[10.659853] (-) TimerEvent: {}
+[10.760515] (-) TimerEvent: {}
+[10.861066] (-) TimerEvent: {}
+[10.961641] (-) TimerEvent: {}
+[11.062359] (-) TimerEvent: {}
+[11.162971] (-) TimerEvent: {}
+[11.263588] (-) TimerEvent: {}
+[11.364244] (-) TimerEvent: {}
+[11.464730] (-) TimerEvent: {}
+[11.565315] (-) TimerEvent: {}
+[11.666010] (-) TimerEvent: {}
+[11.766598] (-) TimerEvent: {}
+[11.867103] (-) TimerEvent: {}
+[11.967726] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.968186] (-) TimerEvent: {}
+[12.038855] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.068412] (-) TimerEvent: {}
+[12.078524] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[12.092365] (rplidar_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.115339] (rplidar_ros) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[12.115766] (rplidar_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[12.168677] (-) TimerEvent: {}
+[12.269453] (-) TimerEvent: {}
+[12.370050] (-) TimerEvent: {}
+[12.470542] (-) TimerEvent: {}
+[12.571103] (-) TimerEvent: {}
+[12.633096] (rplidar_ros) StdoutLine: {'line': b'-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[12.671302] (-) TimerEvent: {}
+[12.771884] (-) TimerEvent: {}
+[12.812458] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.861818] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[12.867556] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros\n'}
+[12.872209] (-) TimerEvent: {}
+[12.880508] (rplidar_ros) CommandEnded: {'returncode': 0}
+[12.881709] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[12.883861] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros', '--', '-j16', '-l16'], 'cwd': '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros', 'env': OrderedDict([('USER', 'gurupranav'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gurupranav'), ('OLDPWD', '/home/gurupranav/Programming/ros2_tut'), ('LESS', '-R'), ('NVM_BIN', '/home/gurupranav/.nvm/versions/node/v22.5.0/bin'), ('ZSH', '/home/gurupranav/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/gurupranav/.nvm/versions/node/v22.5.0/include/node'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('NVM_DIR', '/home/gurupranav/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install'), ('LOGNAME', 'gurupranav'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/2544_interop'), ('NAME', 'LAPTOP-D0AFMG2O'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/gurupranav/.local/share/pnpm:/home/gurupranav/.deno/bin:/home/gurupranav/.local/bin:/opt/ros/humble/bin:/home/gurupranav/.nvm/versions/node/v22.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Python/Scripts/:/mnt/d/Python/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/d/c++/Libraries/vulkan/1.3/Bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Neovim/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/GURU PRANAV PR/AppData/Local/pnpm:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/GURU PRANAV PR/go/bin:/mnt/c/MinGW/bin:/mnt/c/Users/GURU PRANAV PR/AppData/Local/GitHubDesktop/bin:/mnt/d/JetBrains Pycharm/PyCharm Community Edition 2024.2.0.1/bin:/mnt/c/Users/GURU PRANAV PR/.dotnet/tools:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/GURU PRANAV PR/AppData/Roaming/npm:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/GURU PRANAV PR/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/GURU PRANAV PR/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/GURU PRANAV PR/AppData/Local/Programs/Hyper/resources/bin:/home/gurupranav/.yarn/bin:/opt/nvim-linux64/bin:/home/gurupranav/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('WT_SESSION', '260322b5-159c-4d90-8c85-a80fad0c0048'), ('DISPLAY', ':0'), ('DENO_INSTALL', '/home/gurupranav/.deno'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:no=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32:'), ('AMENT_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('ENVMAN_LOAD', 'loaded'), ('P9K_SSH', '0'), ('PWD', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros'), ('_P9K_TTY', '/dev/pts/2'), ('NVM_CD_FLAGS', '-q'), ('PYTHONPATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('PNPM_HOME', '/home/gurupranav/.local/share/pnpm'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/gurupranav/Programming/ros2_tut/rplidar_ros/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[12.937509] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_client\x1b[0m\n'}
+[12.944625] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[12.945579] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[12.946422] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_map_node\x1b[0m\n'}
+[12.949652] (rplidar_ros) StderrLine: {'line': b"failed to create symbolic link '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros/ament_cmake_python/rplidar_ros/rplidar_ros' because existing path cannot be removed: Is a directory\n"}
+[12.951020] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_rplidar_ros.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_rplidar_ros] Error 1\n'}
+[12.951442] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:146: CMakeFiles/ament_cmake_python_symlink_rplidar_ros.dir/all] Error 2\n'}
+[12.951591] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.971500] (rplidar_ros) StdoutLine: {'line': b'[  1%] \x1b[32m\x1b[1mLinking CXX executable rplidar_client\x1b[0m\n'}
+[12.972346] (-) TimerEvent: {}
+[13.018488] (rplidar_ros) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX executable rplidar_node\x1b[0m\n'}
+[13.019975] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable lidar_map_node\x1b[0m\n'}
+[13.023456] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[13.072565] (-) TimerEvent: {}
+[13.173151] (-) TimerEvent: {}
+[13.273820] (-) TimerEvent: {}
+[13.374412] (-) TimerEvent: {}
+[13.475071] (-) TimerEvent: {}
+[13.575705] (-) TimerEvent: {}
+[13.624620] (rplidar_ros) StdoutLine: {'line': b'[ 37%] Built target rplidar_node\n'}
+[13.657323] (rplidar_ros) StdoutLine: {'line': b'[ 67%] Built target rplidar_composition\n'}
+[13.675938] (-) TimerEvent: {}
+[13.775077] (rplidar_ros) StdoutLine: {'line': b'[ 69%] Built target rplidar_client\n'}
+[13.776165] (-) TimerEvent: {}
+[13.853510] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target lidar_map_node\n'}
+[13.855177] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.858386] (rplidar_ros) CommandEnded: {'returncode': 2}
+[13.876567] (-) TimerEvent: {}
+[13.977280] (-) TimerEvent: {}
+[13.978842] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 2}
+[13.990520] (-) EventReactorShutdown: {}

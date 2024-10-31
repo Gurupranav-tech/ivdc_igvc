@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros -- -j16 -l16
+[0.116s] [  1%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[0.135s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/gurupranav/Programming/ros2_tut/rplidar_ros/src/rplidar_client.cpp: No such file or directory
+[0.135s] compilation terminated.
+[0.137s] gmake[2]: *** [CMakeFiles/rplidar_client.dir/build.make:76: CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o] Error 1
+[0.138s] gmake[1]: *** [CMakeFiles/Makefile2:250: CMakeFiles/rplidar_client.dir/all] Error 2
+[0.138s] gmake[1]: *** Waiting for unfinished jobs....
+[0.138s] [  3%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[0.138s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[0.138s] [  7%] [32mBuilding CXX object CMakeFiles/lidar_map_node.dir/src/lidar_map_node.cpp.o[0m
+[0.146s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/gurupranav/Programming/ros2_tut/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+[0.146s] compilation terminated.
+[0.146s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/gurupranav/Programming/ros2_tut/rplidar_ros/src/rplidar_node.cpp: No such file or directory
+[0.146s] compilation terminated.
+[0.147s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/gurupranav/Programming/ros2_tut/rplidar_ros/src/lidar_map_node.cpp: No such file or directory
+[0.147s] compilation terminated.
+[0.148s] gmake[2]: *** [CMakeFiles/rplidar_composition.dir/build.make:76: CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o] Error 1
+[0.148s] gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Error 1
+[0.149s] gmake[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/rplidar_composition.dir/all] Error 2
+[0.149s] gmake[2]: *** [CMakeFiles/lidar_map_node.dir/build.make:76: CMakeFiles/lidar_map_node.dir/src/lidar_map_node.cpp.o] Error 1
+[0.149s] gmake[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/rplidar_node.dir/all] Error 2
+[0.149s] gmake[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/lidar_map_node.dir/all] Error 2
+[0.173s] [  7%] Built target ament_cmake_python_copy_rplidar_ros
+[0.175s] gmake: *** [Makefile:146: all] Error 2
+[0.178s] Invoked command in '/home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/rplidar_ros/build/rplidar_ros -- -j16 -l16

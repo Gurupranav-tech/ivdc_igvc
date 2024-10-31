@@ -1,0 +1,73 @@
+[0.301s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps
+[0.605s] -- The C compiler identification is GNU 11.4.0
+[1.780s] -- The CXX compiler identification is GNU 11.4.0
+[2.655s] -- Detecting C compiler ABI info
+[2.955s] -- Detecting C compiler ABI info - done
+[2.968s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.968s] -- Detecting C compile features
+[2.969s] -- Detecting C compile features - done
+[2.975s] -- Detecting CXX compiler ABI info
+[3.277s] -- Detecting CXX compiler ABI info - done
+[3.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.292s] -- Detecting CXX compile features
+[3.293s] -- Detecting CXX compile features - done
+[3.296s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.535s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.763s] -- Found asio: /usr/include  
+[3.768s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[4.126s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.135s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.263s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[4.333s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.339s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.301s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.615s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.776s] -- Looking for pthread.h
+[17.057s] -- Looking for pthread.h - found
+[17.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.376s] -- Found Threads: TRUE  
+[17.444s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[17.479s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[17.541s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.576s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[17.583s] -- Found ublox_msgs: 2.2.0 (/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/share/ublox_msgs/cmake)
+[17.728s] -- Configuring done
+[17.768s] -- Generating done
+[17.772s] -- Build files have been written to: /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps
+[17.790s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gurupranav/Programming/ros2_tut/igvc/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_gps
+[17.793s] Invoking command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
+[17.875s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[17.883s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[17.883s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[17.894s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[17.895s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[17.909s] [ 31%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[17.909s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[17.909s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[17.909s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[17.911s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[17.911s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[17.911s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[17.914s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[17.915s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[17.919s] [ 68%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[17.920s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[18.135s] [ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[18.808s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[90.342s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[90.359s] compilation terminated.
+[90.359s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:104: CMakeFiles/ublox_gps.dir/src/gps.cpp.o] Error 1
+[90.359s] gmake[2]: *** Waiting for unfinished jobs....
+[125.576s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[125.580s] compilation terminated.
+[125.586s] gmake[2]: *** [CMakeFiles/ublox_gps.dir/build.make:174: CMakeFiles/ublox_gps.dir/src/node.cpp.o] Error 1
+[129.445s] [ 86%] [32m[1mLinking CXX executable ublox_logger[0m
+[130.918s] [ 86%] Built target ublox_logger_node
+[139.085s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ublox_gps.dir/all] Error 2
+[139.098s] gmake: *** [Makefile:146: all] Error 2
+[139.267s] Invoked command in '/home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps' returned '2': AMENT_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs:/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_serialization:/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gurupranav/Programming/ros2_tut/igvc/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gurupranav/Programming/ros2_tut/igvc/build/ublox_gps -- -j16 -l16
