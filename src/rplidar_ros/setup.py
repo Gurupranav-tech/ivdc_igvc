@@ -17,6 +17,7 @@ setup(
     entry_points={
         'console_scripts': [
             'igvc_slam_node = igvc_slam_node:main',  # Update this if your main function is different
+            'imu = imu:main',
         ],
     },
 )

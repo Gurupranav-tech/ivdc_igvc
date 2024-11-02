@@ -5,6 +5,7 @@
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/PKG-INFO
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/top_level.txt
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/cv_to_map.py
+/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/imu.py
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/cv_to_map2.py
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/rplidar_client.cpp
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/igvc_slam_node.py
@@ -38,6 +39,7 @@
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/igvc_slam_node.py
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/cv_to_map2.py
+/home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/imu.py
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/rplidar_node
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
 /home/gurupranav/Programming/ros2_tut/igvc/install/rplidar_ros/lib/rplidar_ros/rplidar_client

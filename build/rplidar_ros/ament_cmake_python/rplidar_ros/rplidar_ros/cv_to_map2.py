@@ -36,8 +36,7 @@ class LaneMapPublisher(Node):
         self.map_info.origin.position.x = -10.0
         self.map_info.origin.position.y = -10.0
 
-        # self.cam = cv2.VideoCapture('gst-launch-1.0 souphttpsrc location=http://127.0.0.1:8080 ! decodebin ! videoconvert ! appsink')  # Set the camera index as needed
-        self.cam = cv2.VideoCapture('ttp://127.0.0.1')
+        self.cam = cv2.VideoCapture(0)
         self.imshowout = None
 
         self.create_timer(1.0 / self.frame_rate, self.camera_callback)

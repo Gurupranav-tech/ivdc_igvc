@@ -113,6 +113,11 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+  src/imu.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(TARGETS rplidar_node rplidar_composition rplidar_client lidar_map_node 
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )

@@ -22,5 +22,8 @@ if(BUILD_TESTING)
 endif()
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS 
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()
