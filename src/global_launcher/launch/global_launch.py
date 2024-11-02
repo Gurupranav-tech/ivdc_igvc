@@ -31,7 +31,7 @@ def generate_launch_description():
     return LaunchDescription([
         rplidar_ros_launch,    
         gps_ros_launch,
-         device_argument,
+        device_argument,
         Node(
         package='micro_ros_agent',
         executable='micro_ros_agent',
